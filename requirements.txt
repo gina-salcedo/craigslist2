@@ -7,3 +7,4 @@ seaborn==0.11.0
 datetime
 numpy
 wikipedia
+xlrd
