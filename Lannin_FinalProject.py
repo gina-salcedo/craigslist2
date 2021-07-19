@@ -4,7 +4,7 @@ Name: Gina Salcedo Lannin
 CS602 Section 1
 Data: Craigslist Used Cars
 
-******************LINK********************
+https://share.streamlit.io/gina-salcedo/craigslist2/main/Lannin_FinalProject.py
 
 Description: 
     
@@ -24,6 +24,7 @@ import seaborn as sns
 from datetime import datetime, time
 import numpy as np
 import wikipedia
+import xlrd
 
 st.set_page_config(
      page_title='Craigslist Cars',
@@ -58,7 +59,7 @@ st.markdown(
 
 def load_data():
 
-    filename = 'cl_used_cars_7000_sample.xlsx'
+    filename = 'cl_used_cars_7000_sample.xls'
     
     df = pd.read_excel(filename)
     
