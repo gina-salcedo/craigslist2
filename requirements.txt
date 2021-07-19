@@ -1,0 +1,9 @@
+streamlit
+pandas
+statistics
+pydeck
+matplotlib
+seaborn==0.11.0
+datetime
+numpy
+wikipedia
